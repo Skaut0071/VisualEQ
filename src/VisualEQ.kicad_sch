@@ -5275,6 +5275,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 143.51) (xy 217.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e44264-1b5c-4410-a2eb-7115a73eb5b3")
+	)
+	(wire
+		(pts
 			(xy 63.5 90.17) (xy 93.98 90.17)
 		)
 		(stroke
@@ -5312,6 +5322,16 @@
 			(type default)
 		)
 		(uuid "5a9d67ea-71fc-4339-b101-db59ad645dec")
+	)
+	(wire
+		(pts
+			(xy 265.43 140.97) (xy 265.43 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa695b0-f7d3-47f0-a43e-00fa73b6153f")
 	)
 	(wire
 		(pts
@@ -5362,6 +5382,16 @@
 			(type default)
 		)
 		(uuid "60d8eecc-b714-46fa-9739-313a142265ea")
+	)
+	(wire
+		(pts
+			(xy 265.43 143.51) (xy 264.16 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c9c29c-14b6-4405-b81d-55e87551a365")
 	)
 	(wire
 		(pts
@@ -5592,6 +5622,16 @@
 			(type default)
 		)
 		(uuid "7685707c-724c-470f-963a-692359b0b8e8")
+	)
+	(wire
+		(pts
+			(xy 217.17 143.51) (xy 217.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775b4c5e-8682-4a82-acf7-dae21b6ad9c2")
 	)
 	(wire
 		(pts
@@ -7423,7 +7463,7 @@
 			)
 		)
 	)
-	(global_label "CH6"
+	(global_label "CH5"
 		(shape output)
 		(at 152.4 139.7 0)
 		(fields_autoplaced yes)
@@ -8263,7 +8303,7 @@
 			)
 		)
 	)
-	(global_label "CH5"
+	(global_label "CH4"
 		(shape output)
 		(at 152.4 127 0)
 		(fields_autoplaced yes)
@@ -8552,6 +8592,84 @@
 			(project "VisualEQ"
 				(path "/e1176a2b-c346-432a-9c8f-d15bd884be1d"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 265.43 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "026421fc-2356-466a-a21a-151cd9b23659")
+		(property "Reference" "#PWR017"
+			(at 265.43 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 265.43 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 265.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab98f241-935f-4a3e-a2c2-3bacda66919c")
+		)
+		(instances
+			(project "VisualEQ"
+				(path "/e1176a2b-c346-432a-9c8f-d15bd884be1d"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11277,10 +11395,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "62330316-f592-4aa2-a672-4664998972cc")
 		(property "Reference" "U1"
-			(at 274.32 137.0898 90)
+			(at 221.742 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11290,7 +11407,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02"
-			(at 274.32 139.6298 90)
+			(at 231.902 157.734 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12158,6 +12275,84 @@
 			(project "VisualEQ"
 				(path "/e1176a2b-c346-432a-9c8f-d15bd884be1d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c8529b7-878e-4798-936d-cfb80d858f46")
+		(property "Reference" "#PWR016"
+			(at 217.17 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dce03c88-794a-40da-bfcf-d232879c1a6e")
+		)
+		(instances
+			(project "VisualEQ"
+				(path "/e1176a2b-c346-432a-9c8f-d15bd884be1d"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
